@@ -39,7 +39,7 @@ jobs:
           # Development version of GraphBLAS backend
           pip install git+https://github.com/python-graphblas/graphblas-algorithms.git@main --no-deps
           # Development version of nx-parallel backend
-          pip install git+https://github.com/networkx/nx-parallel.git@main --no-deps
+          pip install git+https://github.com/Schefflera-Arboricola/nx-parallel.git@adding_pkgs --no-deps
           pip list
 
       # To set up a cross-repository deploy key:
